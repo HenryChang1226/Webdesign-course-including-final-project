@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>form</title>
+</head>
+<body>
+    
+    <form action="php/code.php" method="post">
+
+        <label> Name
+            <input name="name" placeholder="Henry Chang"
+            type="text">
+
+        </label>
+
+        <label> Email
+            <input name="email" placeholder="a033971721@gmail.com" type="mail">
+
+        </label>
+
+        <label> Age
+            <input name="age" placeholder="25" type="Number" min="18" max="65">
+
+        </label>
+
+        <label>Comments
+
+            <textarea name="text" required></textarea>
+
+        </label>
+
+        <p>what's your favorite sport?</p>
+            <label>Swimming <input type="checkbox" name="sport" value="swimming"></label>
+            <label>Soccer <input type="checkbox" name="sport" value="soccer"></label>
+            <label>Basket <input type="checkbox" name="sport" value="basket"></label>
+
+        <p>Married status</p>
+            <label> Married <input type="radio" name="married" value="married"></label>
+            <label> Single <input type="radio" name="married" value="single"></label>
+
+
+
+        <p>Country</p>
+        <select name="country">
+            <option value="argentina">Argentina</option>
+            <option value="japan">japan</option>
+            <option value="taiwan">taiwan</option>
+        </select>
+
+
+        <p>What car/cars do you like?</p>
+
+        <select name="car" multiple size="5">
+            <option value="renault">Renault</option>
+            <option value="jeep">Jeep</option>
+            <option value="toyota">Toyota</option>
+        </select>
+
+        <button>send</button>
+    </form>
+
+    <div></div>
+</body>
+</html>

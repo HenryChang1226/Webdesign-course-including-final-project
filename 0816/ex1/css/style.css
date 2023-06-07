@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&family=Roboto+Slab:wght@400;600;700&display=swap');
+
+html{}
+body,h1,p{margin:0}
+h1{font-size: 3.75em;}
+p{font-size: 1.25em;}
+body {font-size: 100%;font-family: 'Roboto Slab', serif; color:#8896AB;}
+h1,h2 {font-family: 'Mulish', sans-serif;font-size: 3.75em;margin-bottom: 1.25rem; font-weight: 900;color: #7E6551;}
+
+
+#outstanding { font-weight: 600;}
+h1 + p { color: #466362;}
+
+.black {color:black; }
+.paragraph{color:#466362}
+span.black {text-decoration:un
+    derline;}
+
+@media(max-width:768px){
+
+    body{font-size: 50%;}
+
+
+}

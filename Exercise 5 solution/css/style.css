@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+* { margin: 0; padding: 0; }
+
+body,a { color: #081F32;font-family: 'DM Sans', sans-serif;  }
+p { font-size: 18px; margin-top: 16px;}
+main { width: 83.33%; margin: auto; min-height: 80vh; }
+img { width:100%;}
+h2,h3 { font-weight: 500;}
+h1 { font-size: 36px; margin-bottom: 42px; }
+section:first-child h2 { font-size: 26px; background-color: #FFDF2B;
+width: 100%; height: 60px; line-height: 60px; margin: 42px 0;}
+h3 { font-size: 24px;}
+section:nth-child(2) h2 { font-weight: 700; font-size:36px;}
+
+section { width: 100%;}
+
+section * { width: 60%;}
+section:first-child div:nth-child(2){width: 30%;}
+section:first-child { display: flex; justify-content: space-between; margin-bottom: 63px;
+align-items: flex-start;}
+
+
+header,footer { height: 0.74vh;background-color: #FFDF2B; width: 100%;margin-bottom: 6.88vh;  }
+header { margin-bottom: 137px;}
+footer { height: 5.5vh; margin:6.88vh 0 0 ; }
+
+
+@media (max-width: 768px) {
+
+section:first-child { flex-direction: column;}
+section *, section:first-child div:nth-child(2), main { width: 100%;}
+section:first-child h2,h3, section:first-child div:nth-child(2) { text-align:center; }
+section:first-child div:nth-child(2) { margin-top: 35px;}
+img { width: 66.66%;}
+    
+}
+
+
+
+
+
+

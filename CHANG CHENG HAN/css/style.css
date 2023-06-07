@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700;900&display=swap');
+
+* { margin: 0; padding: 0; }
+
+body { font-family: 'Mulish', sans-serif;  }
+
+main { width: 100%; margin: auto; min-height: 80vh; }
+
+nav{
+
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+
+
+a{  color: #191018;
+    font-weight: 300;
+    font-size: 28px;
+    text-decoration:none}
+
+
+main { width: 100%; margin: auto; min-height: 80vh; }
+
+h1 { font-size: 71px; font-weight: 1000; margin-bottom: 36px;text-align: center; }
+h2 { font-size: 32px; font-weight: 900; margin-bottom: 36px;text-align: center; }
+h3 { font-size: 28px; color:#191018}
+
+p { font-size: 24px; margin-top: 36px; color: #808080; font-weight: 500;}
+
+section { 
+    width: 100%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-bottom: 63px;
+    align-items: flex-start;}
+
+section div:nth-child(1){width: 41.7%;}
+
+img { width:100%;}
+
+section div:nth-child(2){width: 50%;}
+
+footer { height: 5.5vh; margin:6.88vh 0 0 ;background-color:#000000;width: 100%; }
+
+
+@media (max-width: 768px) {
+
+section,nav{ flex-direction: column;}
+nav{align-items: flex-start;
+    justify-content:left;
+    margin-bottom:36px ;
+}
+
+section div:nth-child(1),section div:nth-child(2){ width: 100%;}
+
+
+h3{ text-align:left; }
+
+section div:nth-child(1) { margin-top: 16px;text-align:center;}
+
+img { width: 83.33%;}
+    
+}
+
+
+
+
+
+

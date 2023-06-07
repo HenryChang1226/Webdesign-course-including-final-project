@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&family=Roboto+Slab:wght@400;600;700&display=swap');
+
+body {font-family: 'Roboto Slab', serif; color:#8896AB;}
+h1,h2 {font-family: 'Mulish', sans-serif; font-weight: 900;color: #7E6551;}
+#outstanding { font-weight: 600;}
+h1 + p { color: #466362;}
+.paragraph{color:rgba(126,101,81,0.5); background-image: radial-gradient(circle at center, blue,green);}
+.black {color:black; }
+
+span.black {text-decoration:underline;}
+
+/* 16px====1em===100% */

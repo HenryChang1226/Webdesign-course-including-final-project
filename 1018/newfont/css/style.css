@@ -1,0 +1,44 @@
+@font-face{
+font-family: myFont;
+src:url(../fonts/Black.otf);
+font-weight: 700;
+}
+
+@font-face{
+    font-family: myFont;
+    src:url(../fonts/BoldOutline.otf);
+    font-weight: 600;
+    }
+
+@font-face{
+    font-family: myFont;
+    src:url(../fonts/Thin.otf);
+    font-weight: 200;
+    }
+
+@font-face{
+    font-family: myFont2;
+    src:url(../fonts/BebasNeue-Regular.otf);
+    font-weight: 100;
+    }
+
+h1{
+font-family: myFont;
+}
+
+p{
+font-family: myFont;
+font-weight: 600;
+}
+
+p:last-child{
+    font-family: myFont;
+    font-weight: 200;
+
+}
+
+h2{
+    font-family: myFont2;
+    font-weight: 100;
+
+}

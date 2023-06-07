@@ -1,0 +1,25 @@
+div {
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation-name: move;
+    animation-duration:2s;
+    animation-delay: 3s;
+    animation-fill-mode:both;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+   
+
+
+}
+
+
+@keyframes move{
+
+    from{ background-color: red;}
+
+    to{background-color: blue;}
+
+
+}

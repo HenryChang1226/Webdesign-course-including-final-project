@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Actor', sans-serif;
+    background-color: #28293E;
+    color: #FCFCFF;
+}
+
+/*the font-family is inherit by the child elements
+from the parent element*/
+h1 {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -4px;
+}
+
+/*all the header have set the font-weight set up in 700*/
+
+p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+main {width: 100%;
+      height: 100vh;
+}
+
+header, nav { 
+
+    width: 83.33%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav { justify-content: space-between ;
+     
+
+}
+
+nav div:nth-child(2){ 
+    
+    width:20%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+header{height: 90vh;}
+header div { width: 50%; }
+header img { width: 100%;}
+
+a{
+    color: #FCFCFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FCFCFF;
+    text-decoration: underline;
+}
+
+@media(max-width:768px){
+
+body{padding: 1em;}
+header, header div, nav, nav div, nav div:nth-child(2){
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+
+
+
+
+}

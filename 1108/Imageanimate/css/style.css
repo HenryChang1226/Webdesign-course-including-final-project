@@ -1,0 +1,30 @@
+img {
+
+
+    width: 100px;
+    display: block;
+    animation:move 5s infinite steps(5,end) ;
+    
+    }
+    
+    
+    
+    img:nth-child(2){
+        width: 100px;
+        display: block;
+        animation:move 5s infinite steps(5,end) ;
+    
+    }
+    
+    
+    
+    @keyframes move {
+    
+    from  {transform:translateX(0px);}
+    
+    
+    to {transform:translateX(200px);}
+    
+    
+        
+    }

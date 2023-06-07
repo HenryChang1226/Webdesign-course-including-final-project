@@ -1,0 +1,34 @@
+main{
+
+    display: grid;
+    grid-template-areas: 'myheader myheader myheader myheader myheader myheader'
+    'mynav mysection mysection mysection myaside myaside'
+    'mynav myfooter myfooter myfooter myfooter myfooter'
+    ;
+}
+
+header, nav, section, aside,footer{
+
+    border: 2px solid gray;
+}
+
+header{
+
+    grid-area: myheader;
+}
+
+nav{
+    grid-area: mynav;
+}
+
+section{
+    grid-area: mysection;
+}
+
+aside{
+    grid-area: myaside;
+}
+
+footer{
+    grid-area: myfooter;
+}
