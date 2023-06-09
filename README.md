@@ -62,7 +62,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## Acknowledgements
 
-We would like to express our gratitude to the following resources for their valuable contributions to this project:
+I would like to express our gratitude to the following resources for their valuable contributions to this project:
 
 - Bootstrap (https://getbootstrap.com/): Used for its responsive design, styling components, and form validation.
 
