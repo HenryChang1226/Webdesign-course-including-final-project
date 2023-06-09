@@ -6,6 +6,7 @@ Welcome to the Bariloche Tourism Website! This project showcases a travel agent 
 
 1. **Lightbox Photo Gallery:** The website includes a visually appealing photo gallery that utilizes the lightbox feature. Visitors can click on the images to view them in a larger format, enhancing their browsing experience and showcasing the beauty of Bariloche.
 
+<div align=center><img width="150" height="150" src="Lightbox.png"/></div>
 ![image](Lightbox.png)
 
 2. **Contact Information:** Essential contact information is provided on the website in a structured and visually appealing manner. A Bootstrap list is used to display contact details, making it easy for visitors to access information such as phone numbers, email addresses, and IG.
