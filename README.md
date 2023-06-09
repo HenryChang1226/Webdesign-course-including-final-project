@@ -10,7 +10,7 @@ Welcome to the Bariloche Tourism Website! This project showcases a travel agent 
 
 2. **Contact Information:** Essential contact information is provided on the website in a structured and visually appealing manner. A Bootstrap list is used to display contact details, making it easy for visitors to access information such as phone numbers, email addresses, and IG.
 
-![image]([Contact Information.png](https://github.com/HenryChang1226/Webdesign-course-including-final-project/blob/main/Contact%20Information.png))
+![image](https://github.com/HenryChang1226/Webdesign-course-including-final-project/blob/main/Contact%20Information.png)
 
 3. **Membership Application Form:** Recognizing the potential interest of visitors in becoming members, a membership application form is provided. Visitors can enter their name and email address and other information to apply for membership. The form includes validation to ensure that correct information is entered. If the name or email address is improperly formatted, an error message is displayed.
 
