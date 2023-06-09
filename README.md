@@ -6,11 +6,16 @@ Welcome to the Bariloche Tourism Website! This project showcases a travel agent 
 
 1. **Lightbox Photo Gallery:** The website includes a visually appealing photo gallery that utilizes the lightbox feature. Visitors can click on the images to view them in a larger format, enhancing their browsing experience and showcasing the beauty of Bariloche.
 
-2. **Contact Information:** Essential contact information is provided on the website in a structured and visually appealing manner. A Bootstrap list is used to display contact details, making it easy for visitors to access information such as phone numbers, email addresses, and office locations.
+![image](Lightbox.png)
 
-3. **Membership Application Form:** Recognizing the potential interest of visitors in becoming members, a membership application form is provided. Visitors can enter their name and email address to apply for membership. The form includes validation to ensure that correct information is entered. If the name or email address is improperly formatted, an error message is displayed.
+2. **Contact Information:** Essential contact information is provided on the website in a structured and visually appealing manner. A Bootstrap list is used to display contact details, making it easy for visitors to access information such as phone numbers, email addresses, and IG.
+![image](Contact Information.png)
+
+3. **Membership Application Form:** Recognizing the potential interest of visitors in becoming members, a membership application form is provided. Visitors can enter their name and email address and other information to apply for membership. The form includes validation to ensure that correct information is entered. If the name or email address is improperly formatted, an error message is displayed.
+![image](Membership Application Form.png)
 
 4. **Responsive Web Design (RWD):** The website is designed to be responsive using Bootstrap. This ensures that visitors can easily access and navigate the website from various devices, including desktop computers, tablets, and mobile phones, without compromising the user experience.
+![image](Responsive Web Design (RWD).png)
 
 ## Installation
 
