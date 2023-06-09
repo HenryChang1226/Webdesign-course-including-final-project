@@ -44,7 +44,7 @@ Once the website is open in your web browser, you can explore the following sect
 
 - Browse through the stunning photographs of Bariloche by clicking on the images displayed in the photo gallery. The lightbox feature allows you to view the images in a larger format.
 
-- Find the contact information for the travel agent by referring to the contact details listed in the Bootstrap list. You can locate the phone numbers, email addresses, and office locations to get in touch with the travel agent.
+- Find the contact information for the travel agent by referring to the contact details listed in the Bootstrap list. You can locate the phone numbers, email addresses, and IG to get in touch with the travel agent.
 
 - If you are interested in becoming a member, fill out the membership application form. Enter your name and email address in the provided fields and click the submit button. If any errors occur due to improper formatting, error messages will be displayed, prompting you to correct the information.
 
